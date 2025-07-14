@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contenstants",
+  "info": {
+    "singularName": "contenstant",
+    "pluralName": "contenstants",
+    "displayName": "contenstant"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
