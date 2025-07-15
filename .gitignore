@@ -71,6 +71,10 @@ $RECYCLE.BIN/
 *.sqlite
 *.sqlite3
 
+# Allow data directory but ignore database files
+!data/
+data/*.db
+
 
 ############################
 # Misc.
